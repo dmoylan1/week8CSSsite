@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ye Old Bread Shoppe: Contact Page</title>
+	</head>
+	<body>
+		<table border="1" width="100%">
+			<tr> 
+                <!-- Page header -->
+				<td width="20%">
+					<img src="images/cute.jpg" width="150px">
+				</td>
+				<td> 
+					<h1>Ye Olde Bread Shoppe<br>
+                    - Contact Form
+                    </h1>
+				</td>
+			</tr>
+			<tr>
+				<td>
+                    <!-- Navigation -->
+					<p><a href="index.html">Home</a></p>
+					<p><a href="recipes.html">Recipes</a></p>
+					<p><a href="contact.html">Contact Us</a></p>
+				</td>
+				<td>
+                    <!-- Page content -->
+					<h2>Contact Our Shoppe</h2>
+					<form>
+                        <p>First Name: <input type="text" name="firstName" placeholder="John"></p>
+                        <p>Last Name: <input type="text" name="lastName" placeholder="Smith"></p>
+                        <p>Email Address: <input type="email" name="email" placeholder="jsmith@email.com"></p>
+                        <p>Phone Number: <input type="text" type="phone" placeholder="123-456-7890"></p>
+                        <p>How would you prefer we contact you?
+                            <br>
+                            <input type="radio" name="preference" value="Email">Email
+                            <br>
+                            <input type="radio" name="preference" value="Phone">Phone
+                        </p>
+                        <input type="submit" onclick="clickMe()"><input type="reset">
+                    </form>
+
+
+
+				</td>
+			</tr>
+		</table>
+
+		<script>
+			function clickMe() {
+				alert('Your form has been submitted!');
+			}
+		</script>
+	</body>
+</html>
