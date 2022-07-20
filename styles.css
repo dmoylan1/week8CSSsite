@@ -20,7 +20,7 @@ h1 {
 .main {
     text-align: center;
 }
-
+/* Navigation bar */
 .nav {
     float:left;
     clear:left;
@@ -48,6 +48,8 @@ ul li {
     list-style: none;
 }
 
+/* Index page specific styling */
+
 #big-pic {
     border: 5px solid #138D75;
     border-radius: 10px;
@@ -62,6 +64,8 @@ ul li {
     line-height: 18pt;
 }
 
+/* Recipe page specific styling */
+
 .rheading {
     color: #138D75;
     font-size: 16px;
@@ -69,17 +73,25 @@ ul li {
 
 #recipe-img {
     border-radius: 10px;
+    float:left;
+    margin-right: 40px;
+    margin-bottom: 60px;
 }
 
 ol {
-   background-color:  Moccasin;
-   padding: 10px;
+   text-align: left;
+   padding: 20px;
    padding-left: 25px;
    margin-left: 150px;
+   border-radius: 10px;
 }
 
 ol li:nth-child(even) {
     color: #138D75;
+}
+
+ol li {
+    padding-bottom: 10px;
 }
 
 #credit {
@@ -87,6 +99,8 @@ ol li:nth-child(even) {
     font-size: 12px;
     text-transform: capitalize;
 }
+
+/* Contact page specific styling */
 
 form {
     background-color: moccasin;
